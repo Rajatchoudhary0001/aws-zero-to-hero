@@ -1,17 +1,24 @@
-# 📊 AWS Pricing Models – Comparison Table
+# 📘 Day 1 – AWS Pricing Models
 
-| Model       | What is it?                  | When to use?             | Why use it?              | How it works?                          | Where to get it? |
-|-------------|------------------------------|---------------------------|--------------------------|----------------------------------------|------------------|
-| On-Demand   | Pay only for what you use    | Short-term or testing     | Flexible, no commitment  | Billed hourly or per second            | EC2 console / CLI |
-| Reserved    | Pre-book resources for 1–3 yrs | Long-term, steady usage   | Up to 72% cheaper        | Pay upfront or monthly, fixed setup    | EC2 console / CLI |
-| Spot        | Use unused AWS capacity      | Flexible, fault-tolerant  | Up to 90% cheaper        | Bid for spare capacity, can be stopped | EC2 console / CLI |
+## ✅ Task
+Understand AWS Pricing Models  
+Learn about the different pricing models offered by AWS (On-Demand, Reserved Instances, Spot Instances).
 
 ---
 
-# 🎤 Interview-Ready Answer (Simple & Sharp)
+## 📊 AWS Pricing Models – Comparison Table
 
-**“AWS has three pricing models:  
-On-Demand for flexible use,  
-Reserved for long-term savings,  
-and Spot for cheap, interruptible jobs.  
-All are available from EC2 console or CLI, helping match cost to workload type.”**
+| Model       | What it means              | When to use              | Why use it               |
+|-------------|----------------------------|---------------------------|---------------------------|
+| On-Demand   | Pay only when you use      | Short-term, testing       | Flexible, no commitment   |
+| Reserved    | Book for 1–3 years         | Long-term, steady usage   | Save up to 72%            |
+| Spot        | Use spare AWS capacity     | Flexible, fault-tolerant  | Save up to 90%            |
+
+🟢 **Where to use:** These models apply to **EC2 instances** (virtual servers).  
+🛠️ Access via **AWS Console or CLI**.
+
+---
+
+## 🎤 Interview-Ready Answer
+
+**“AWS offers On-Demand for flexible use, Reserved for long-term savings, and Spot for cheap, interruptible jobs. These models help match cost to workload type.”**
